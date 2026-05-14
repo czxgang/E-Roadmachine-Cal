@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import math
-from scipy.interpolate import interp1d
+#from scipy.interpolate import interp1d
 
 
 st.set_page_config(page_title="Paver Simulation Calculator", layout="wide")
@@ -132,9 +132,9 @@ soc_ocv_df = pd.DataFrame({
 
 
 # 创建插值函数（放电）
-f_discharge = interp1d(soc_ocv_df['SOC_%'], soc_ocv_df['Discharge_OCV'], kind='linear', fill_value='extrapolate')
+#f_discharge = interp1d(soc_ocv_df['SOC_%'], soc_ocv_df['Discharge_OCV'], kind='linear', fill_value='extrapolate')
 # 创建插值函数（充电）
-f_charge = interp1d(soc_ocv_df['SOC_%'], soc_ocv_df['Charge_OCV'], kind='linear', fill_value='extrapolate')
+#f_charge = interp1d(soc_ocv_df['SOC_%'], soc_ocv_df['Charge_OCV'], kind='linear', fill_value='extrapolate')
 
 def get_ocv(soc_percent, mode='discharge'):
     """
