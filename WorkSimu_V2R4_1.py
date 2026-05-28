@@ -36,15 +36,15 @@ PAVER_MODELS = {
         "Drive": 30.0, "Conveyor": 10.0, "Auger": 16.0, "Screed": 15.0,
         "Vibration": 8.0, "Compaction": 6.5, "HYD Cylinder": 10.0, "Lv System": 2.0
     },
-    "SD25": {
+    "SD25(Nodata)": {
         "Drive": 0.0, "Conveyor": 0.0, "Auger": 0.0, "Screed": 0.0,
         "Vibration": 0.0, "Compaction": 0.0, "HYD Cylinder": 0.0, "Lv System": 0.0
     },
-    "SD11": {
+    "SD11(Nodata)": {
         "Drive": 0.0, "Conveyor": 0.0, "Auger": 0.0, "Screed": 0.0,
         "Vibration": 0.0, "Compaction": 0.0, "HYD Cylinder": 0.0, "Lv System": 0.0
     },
-    "BF800": {
+    "BF800(Nodata)": {
         "Drive": 0.0, "Conveyor": 0.0, "Auger": 0.0, "Screed": 0.0,
         "Vibration": 0.0, "Compaction": 0.0, "HYD Cylinder": 0.0, "Lv System": 0.0
     },
