@@ -120,7 +120,7 @@ ROLLER_MODELS = {
         "motor_hyd_eff": 0.9,
         "is_pure_motor": False
     },
-    "BW120e": {
+    "BW120e(Nodata)": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -128,7 +128,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "BW177e": {
+    "BW177e(Nodata)": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -136,7 +136,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CC900/1000e": {
+    "CC900/1000e(Nodata)": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -144,7 +144,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CC1100/1200e": {
+    "CC1100/1200e(Nodata)": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -152,7 +152,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CX8": {
+    "CX8(Nodata)": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -160,7 +160,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CS1400": {
+    "CS1400(Nodata)": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -168,7 +168,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CA1300": {
+    "CA1300(Nodata)": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -176,7 +176,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CA1500": {
+    "CA1500(Nodata)": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
