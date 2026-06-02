@@ -29,22 +29,22 @@ st.title("🚜 Construction Equipment Energy Simulator")
 # ====================== 机型数据库（单一数据源）======================
 PAVER_MODELS = {
     "BF200": {
-        "Drive": 22.0, "Conveyor": 8.0, "Auger": 12.0, "Screed": 12.0,
-        "Vibration": 6.0, "Compaction": 5.0, "HYD Cylinder": 8.0, "Lv System": 1.5
+        "Drive": 50, "Conveyor": 4.0, "Auger": 7.4, "Screed": 7.5,
+        "Vibration": 8.68, "Compaction": 0.0, "HYD Cylinder": 9.4, "Lv System": 2
     },
     "SD1800We": {
         "Drive": 30.0, "Conveyor": 10.0, "Auger": 16.0, "Screed": 15.0,
         "Vibration": 8.0, "Compaction": 6.5, "HYD Cylinder": 10.0, "Lv System": 2.0
     },
-    "SD25(Nodata)": {
+    "SD25": {
         "Drive": 0.0, "Conveyor": 0.0, "Auger": 0.0, "Screed": 0.0,
         "Vibration": 0.0, "Compaction": 0.0, "HYD Cylinder": 0.0, "Lv System": 0.0
     },
-    "SD11(Nodata)": {
+    "SD11": {
         "Drive": 0.0, "Conveyor": 0.0, "Auger": 0.0, "Screed": 0.0,
         "Vibration": 0.0, "Compaction": 0.0, "HYD Cylinder": 0.0, "Lv System": 0.0
     },
-    "BF800(Nodata)": {
+    "BF800": {
         "Drive": 0.0, "Conveyor": 0.0, "Auger": 0.0, "Screed": 0.0,
         "Vibration": 0.0, "Compaction": 0.0, "HYD Cylinder": 0.0, "Lv System": 0.0
     },
@@ -120,7 +120,7 @@ ROLLER_MODELS = {
         "motor_hyd_eff": 0.9,
         "is_pure_motor": False
     },
-    "BW120e(Nodata)": {
+    "BW120e": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -128,7 +128,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "BW177e(Nodata)": {
+    "BW177e": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -136,7 +136,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CC900/1000e(Nodata)": {
+    "CC900/1000e": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -144,7 +144,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CC1100/1200e(Nodata)": {
+    "CC1100/1200e": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -152,7 +152,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CX8(Nodata)": {
+    "CX8": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -160,7 +160,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CS1400(Nodata)": {
+    "CS1400": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -168,7 +168,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CA1300(Nodata)": {
+    "CA1300": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -176,7 +176,7 @@ ROLLER_MODELS = {
         },
         "bat_eff": 0.98,"inv_eff": 0.97,"motor_eff": 0.96,"pump_eff": 0.9,"gear_eff": 0.95,"motor_hyd_eff": 0.9,"is_pure_motor": False
     },
-    "CA1500(Nodata)": {
+    "CA1500": {
         "mass_kg": 0.0, "speed_kmh": 0.0, "rolling_resistance": 0.0,"force_kn": 0.0, "amplitude_mm": 0.0, "frequency_hz": 0.0,
         "vib_efficiency": 0.0, "steer_power_peak": 0.0, "steer_duty_cycle": 0.0,"cooling_power": 0.0, "aux_power": 0.0, "drivetrain_efficiency": 0.0,
         "hydraulic_parts": {
@@ -194,7 +194,7 @@ def build_paver_parts_df(model_name):
         "Power(kW)": list(data.values())
     })
     df["Load Factor"] = df["Parts Name"].apply(lambda x: {
-        "Cylinder": 30/(10*60), "Vibration": 0, "Compaction": 0.5,
+        "Cylinder": 30/(10*60), "Vibration": 0.5, "Compaction": 0,
         "Drive": 0.2, "Auger": 0.5, "Conveyor": 0.5, "Screed": 0.0,
         "Lv System": 0.5
     }.get(next(k for k in ["Cylinder", "Vibration", "Compaction", "Drive", "Auger", "Conveyor", "Screed", "Lv System"] if k in x), 0.5))
@@ -282,7 +282,7 @@ with st.sidebar:
             st.session_state.paver_parts, use_container_width=True, num_rows="dynamic",
             column_config={
                 "Parts Name": st.column_config.TextColumn(),
-                "Power(kW)": st.column_config.NumberColumn(format="%.1f", step=1.0),
+                "Power(kW)": st.column_config.NumberColumn(format="%.1f", step=0.1),
                 "Load Factor": st.column_config.NumberColumn(format="%.2f", step=0.01)
             }, key="parts_editor"
         )
